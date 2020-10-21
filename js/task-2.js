@@ -21,7 +21,8 @@
 console.log(typeof User);
 // 'function'
 
-const mango = new User('Mango', 2, 20);console.log(mango.getInfo()); 
+const mango = new User('Mango', 2, 20);
+console.log(mango.getInfo()); 
 // 'User Mango is 2 years old and has 20 followers'
 
 console.log(typeof mango.getInfo); 
